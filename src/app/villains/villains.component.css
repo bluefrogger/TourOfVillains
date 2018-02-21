@@ -1,0 +1,65 @@
+/* VillainsComponent private css styles */
+.villains .selected {
+    background-color: royalblue;
+    color: white;
+}
+.villains li.selected:hover {
+    background-color: skyblue;
+    color: white;
+}
+.villains li:hover {
+    left: .1em;
+    background-color: silver;
+    color: steelblue;
+}
+.villains li {
+    position: relative;
+    left: 0;
+
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+.villains {
+    margin: 0 0 2em 0;
+    padding: 0;    
+    
+    list-style-type: none;
+    width: 15em;
+}
+.villains .text {
+    position: relative;
+    top: -3px;
+}
+.villains .badge {
+    position: relative;
+    left: -1px;
+    top: -4px;
+
+    display: inline-block;
+    padding: 0.8em 0.7em 0 0.7em;
+    height: 1.8em;
+    width: 2.5em;
+    margin-right: .8em;
+    
+    font-size: small;
+    line-height: 1em;
+    color: white;
+    
+    background-color: lightsteelblue;
+    border-radius: 4px 0 0 4px;
+}
+a {
+    width: 85%;
+    
+    display: inline-block;
+    text-decoration: none;
+}
+button {
+    display: inline-block;
+    font-size: 1.2em;
+}

@@ -1,0 +1,38 @@
+.div-villain-details {
+    position: relative;
+    left: .4em;
+    
+    display: inline-block;
+    border: 2px solid mistyrose;
+    border-radius: 8px;
+    margin: 1em 0 1em 0;
+    padding: 0.5em;
+    width: 100%;
+
+    font-size: 1.2em;
+
+    background-color: bisque;
+}
+.badge {
+    width: 25%;
+
+    display: inline-block;
+    border-radius: 5px;
+    margin: .2em;
+
+    color: white;
+
+    background-color: purple;
+}
+.input-text {
+    width: 65%;
+}
+button {
+    width: 25%;
+
+    margin: 0.3em;
+    padding: 0.3em;
+
+    font-size: 1em;
+    background-color: lightsalmon;
+}
